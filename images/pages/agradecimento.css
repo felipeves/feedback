@@ -24,11 +24,11 @@
         align-items: center;
     }
 
-    .card{
+    .card {
         background: var(--black-gradient);
-        max-width: 412px;
-        padding: 45px; 32px;
-        border-radius: 30px;
+        max-width: 412 px;
+        padding:45px 32 px;
+        border-radius: 30 px;
         text-align: center;
     }
 
