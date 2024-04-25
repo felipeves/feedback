@@ -10,7 +10,7 @@
 --dark-blue:#262e38;
 --light-grey:#969fad;
 --medium-grey: #7c8798;
---orange: #fc614;
+--orange: #fc7614;
 --white:#fff;
 --very-dark-blue:#131518;
 --black-gradient: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
@@ -61,6 +61,7 @@ margin-bottom: 15px;
     .botoes{
         display: flex;
         justify-content: space-between;
+        margin-bottom: 32px;
     }
 
 
@@ -74,11 +75,38 @@ font-size: 16px;
  border: none;
  color: var(--medium-grey);
  background-color: var(--dark-blue);
+ transition: all ease-in-out 0.3s;
 
 }
 
-.botoes button: :hover {
-    
+.botoes button:hover {
+    color: var(--white);
+    background color: var(--orange);
+   cursor: pointer;
 }  
+
+.botoes button:focus {
+    color: var(--white);
+    background-color: var(--light-grey);
+}
        
 
+.card > button {
+width: 100%;
+padding: 13px;
+background-color: var(--orange);
+border: none;
+border-radius: 22px;
+font-size: 15px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 2px;
+color: var(--white);
+transition: all ease-in-out 0.3s;
+}
+
+.card > button:hover {
+    color: var(--orange);
+    background-color: var(--white);
+    cursor: pointer;
+}
