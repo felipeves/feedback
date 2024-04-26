@@ -79,11 +79,11 @@ font-size: 16px;
 
 }
 
-.botoes button:hover {
+.botoes button: hover{
     color: var(--white);
     background color: var(--orange);
    cursor: pointer;
-}  
+} 
 
 .botoes button:focus {
     color: var(--white);
